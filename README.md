@@ -34,6 +34,7 @@ A modern, professional chat interface powered by Google's Gemini AI. Built with 
 
 4. **Run the application:**
    ```bash
+   cd src
    python app.py
    ```
 
@@ -54,13 +55,15 @@ A modern, professional chat interface powered by Google's Gemini AI. Built with 
 
 ```
 ai-test/
-├── app.py              # Flask backend
+├── src/
+│   └── app.py          # Flask backend
 ├── templates/
 │   └── index.html      # Chat interface
 ├── static/
 │   ├── style.css       # Styling
 │   └── script.js       # Frontend logic
 ├── API.env             # API key configuration
+├── .gitignore          # Git ignore rules
 └── README.md           # This file
 ```
 
